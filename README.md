@@ -1,4 +1,4 @@
 ```
-Project-Euler-plus on HackerRank.
+Project Euler+ on HackerRank.
 https://www.hackerrank.com/contests/projecteuler/challenges
 ```
