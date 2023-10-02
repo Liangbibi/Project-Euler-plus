@@ -5,7 +5,7 @@ int main()
     int i, j;
     int a;
     unsigned long long b, sum;
-    unsigned long long f[31] = {0};     // To storage even-value Fibonacci sequence.
+    unsigned long long f[31] = {0};     // To store even-value Fibonacci sequence.
     f[0] = 2;
     f[1] = 8;
     for (i=2 ; i<31 ; i++)
