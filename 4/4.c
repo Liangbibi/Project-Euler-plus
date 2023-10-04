@@ -16,10 +16,12 @@ int main()
         b --;       // To avoid b also satisfies the conditions, but this question asks us to find largest number "less than b."
         while (b>=101101 && find==false) {
             j = 101;
-            while (j<=999 && find==false) {
+            while (j<=999 && find==false) {     // j will between 101 and 999, that is, j must be three digit,
+                                                // we only need to check whether k is three digit.
                 if (b%j==0) {
                     k = b / j;
-                    if (is_three_digit(k) && is_palindrome(b)) {
+                    if (is_three_digit(k) && is_palindrome(b)) {        // If the answer is palindrome and two numbers j, k are three digit
+                                                                        // that answer = j * k, then the answer is what we want.
                         printf("%d\n", b);
                         find = true;
                     }
