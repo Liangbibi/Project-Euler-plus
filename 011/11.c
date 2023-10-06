@@ -1,4 +1,4 @@
-#include <stdio.h>        // This code is same as Project-Euler 11.c
+#include <stdio.h>        // This code is as same as Project-Euler 11.c
 
 int main()
 {
