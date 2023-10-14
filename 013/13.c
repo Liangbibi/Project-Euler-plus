@@ -4,8 +4,8 @@
 int main()
 {
     int i, j, k, n;
-    int answer[53] = {0};           // To storage the each digit of answer, and there are max 53 digits.
-    char string[50];                // Because int ~ unsigned long long can't storage any 50-digits number, we use string to storage.
+    int answer[53] = {0};           // To store the each digit of answer, and there are max 53 digits.
+    char string[50];                // Because int ~ unsigned long long can't store any 50-digits number, we use string to storage.
     scanf("%d", &n);
     for (i=0 ; i<n ; i++) {
         scanf("%s", string);
